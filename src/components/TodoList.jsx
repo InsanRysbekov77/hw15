@@ -40,22 +40,3 @@ class TodoList extends Component {
 	}
 }
 export default TodoList
-
-{/* <li key={el.id}>
-<div className='date'>
-	<strong>{el.date}</strong>
-</div>
-<h3 className='h3'>{el.task}</h3>
-<label className={`${el.complete ? 'done' : 'task' }`} htmlFor="">
-	<Checkbox
-		type='checkbox'
-		id={el.id}
-		className='input'
-		onChange={this.chechedHandler.bind(this)}
-		checked={el.completed}
-	/>
-	</label>
-<div>
-	<Button className='btn' id={el.id} onClick={(e)=> this.props.onFiltered(e)}>X</Button>
-</div>
-</li> */}
