@@ -21,7 +21,7 @@ class TodoForm extends Component {
 				completed: false,
 			}
 			this.props.onGetData(newTask)
-		} else alert('Вы не заполнили все поля!')
+		} else alert('Вы не заполнили все поля!!!')
 		
 	}
     render(){
